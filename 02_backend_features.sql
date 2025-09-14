@@ -1,5 +1,3 @@
--- Final Project
-
 
 -- Trigger to set a due date 
 CREATE OR REPLACE TRIGGER create_date_due
