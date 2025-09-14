@@ -34,14 +34,32 @@ Open app.py and fill in your database connection details inside the get_connecti
 Start the application from the command line:  
 ```bash
 python app.py
+```
 
 ### Useful test data
 - **book_id:** ranges 1001–1050
-- branch_id: br01, br02
-- card_no: use 1 (manually inserted test patron)
+- **branch_id:** br01, br02
+- **card_no:** use 1 (manually inserted test patron)
 
 
+## Application Features
 
+**Main Menu**
+(1) Patron functions  
+(2) Administrative functions  
+(3) Quit 
 
+**Patron Menu**
+(1) Book checkout  
+(2) Book return  
+(3) Pay fine  
+(4) Print loaned books list  
+(5) Quit  
 
-
+**Admin Menu**
+(1) Add a book  
+(2) Search book  
+(3) New patron  
+(4) Print branch information  
+(5) Print top 10 frequently checked-out books  
+(6) Quit  
