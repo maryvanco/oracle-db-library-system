@@ -30,6 +30,8 @@ Open app.py and fill in your database connection details inside the get_connecti
 - lib_dir if required (Windows/macOS users may need this path for Oracle Instant Client)
 
 
+
+
 ## Running the Application
 Start the application from the command line:  
 ```bash
@@ -42,21 +44,23 @@ python app.py
 - **card_no:** use 1 (manually inserted test patron)
 
 
+
+
 ## Application Features
 
-**Main Menu**
+**Main Menu:**  
 (1) Patron functions  
 (2) Administrative functions  
 (3) Quit 
 
-**Patron Menu**
+**Patron Menu:**  
 (1) Book checkout  
 (2) Book return  
 (3) Pay fine  
 (4) Print loaned books list  
 (5) Quit  
 
-**Admin Menu**
+**Admin Menu:**  
 (1) Add a book  
 (2) Search book  
 (3) New patron  
