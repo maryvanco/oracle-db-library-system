@@ -10,19 +10,19 @@ This project demonstrates:
 
 ## Setup  
 
-### 1. Database Setup  
+#### 1. Database Setup  
 Using SQL Developer or another Oracle client:  
 1. Run `01_create_tables.sql` to create the database schema  
 2. Run `02_backend_features.sql` to create triggers, functions, and procedures  
 
-### 2. Python Environment  
+#### 2. Python Environment  
 Before running the app:  
 1. Download and install [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client/downloads.html)  
 2. Install dependencies:  
    ```bash
    pip install cx_Oracle
 
-### 3. Database Connection
+#### 3. Database Connection
 Open app.py and fill in your database connection details inside the get_connection() function:
 - user
 - password
@@ -38,7 +38,7 @@ Start the application from the command line:
 python app.py
 ```
 
-### Useful test data
+#### Useful test data
 - **book_id:** ranges 1001–1050
 - **branch_id:** br01, br02
 - **card_no:** use 1 (manually inserted test patron)
